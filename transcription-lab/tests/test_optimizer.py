@@ -6,7 +6,7 @@ import tempfile
 
 from transcription_lab.optimizer import (
     OptimizationTarget, ParameterRange, OptimizationResult,
-    OptimizationHistory, ParameterOptimizer,
+    OptimizationHistory, ParameterOptimizer, MetricsLogger,
 )
 
 
@@ -139,6 +139,72 @@ class TestParameterOptimizer:
 
         result = optimizer.optimize(max_iterations=100, strategy="random")
         assert len(optimizer.history.results) < 100
+
+
+class TestMetricsLogger:
+
+    def _make_result(self, iteration=0, wer=0.15, der=0.20, spk_acc=0.85):
+        return OptimizationResult(
+            parameters={
+                "beam_size": 5, "best_of": 3, "temperature": 0.1,
+                "vad_threshold": 0.5, "clustering_threshold": 0.6,
+                "min_speakers": 2, "max_speakers": 8,
+                "similarity_threshold": 0.75,
+            },
+            wer=wer, der=der, speaker_accuracy=spk_acc,
+            score=0.3, iteration=iteration,
+            timestamp="2024-06-15T12:00:00",
+        )
+
+    def test_creates_csv(self, tmp_path):
+        logger = MetricsLogger(tmp_path)
+        logger.append(self._make_result(), strategy="random")
+
+        assert logger.csv_path.exists()
+        content = logger.csv_path.read_text()
+        assert "timestamp" in content
+        assert "0.1500" in content
+
+    def test_creates_markdown(self, tmp_path):
+        logger = MetricsLogger(tmp_path)
+        logger.append(self._make_result(), strategy="bayesian")
+
+        assert logger.md_path.exists()
+        content = logger.md_path.read_text()
+        assert "Metrics Log" in content
+        assert "Best Result" in content
+        assert "bayesian" in content
+
+    def test_csv_appends_rows(self, tmp_path):
+        logger = MetricsLogger(tmp_path)
+        logger.append(self._make_result(iteration=0, wer=0.20), strategy="random")
+        logger.append(self._make_result(iteration=1, wer=0.10), strategy="random")
+
+        lines = logger.csv_path.read_text().strip().split("\n")
+        assert len(lines) == 3  # header + 2 data rows
+
+    def test_markdown_shows_best(self, tmp_path):
+        logger = MetricsLogger(tmp_path)
+        logger.append(self._make_result(iteration=0, wer=0.20, der=0.25), strategy="grid")
+        logger.append(self._make_result(iteration=1, wer=0.03, der=0.08, spk_acc=0.96), strategy="grid")
+
+        content = logger.md_path.read_text()
+        assert "3.00%" in content  # Best WER should be 3%
+
+    def test_csv_header_written_once(self, tmp_path):
+        logger = MetricsLogger(tmp_path)
+        logger.append(self._make_result(iteration=0), strategy="random")
+        logger.append(self._make_result(iteration=1), strategy="random")
+
+        content = logger.csv_path.read_text()
+        assert content.count("timestamp") == 1
+
+    def test_notes_included(self, tmp_path):
+        logger = MetricsLogger(tmp_path)
+        logger.append(self._make_result(), strategy="random", notes="test run")
+
+        content = logger.csv_path.read_text()
+        assert "test run" in content
 
 
 class TestOptimizationResult:
