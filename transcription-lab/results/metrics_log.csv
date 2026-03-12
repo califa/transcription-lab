@@ -1,0 +1,1 @@
+timestamp,iteration,strategy,wer,der,speaker_accuracy,score,beam_size,best_of,temperature,vad_threshold,clustering_threshold,min_speakers,max_speakers,similarity_threshold,notes

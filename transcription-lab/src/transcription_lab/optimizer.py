@@ -1,5 +1,6 @@
 """Parameter optimization for transcription and diarization."""
 
+import csv
 import numpy as np
 from dataclasses import dataclass, field
 from typing import Optional, Callable
@@ -107,6 +108,127 @@ class OptimizationHistory:
         return history
 
 
+class MetricsLogger:
+    """Appends iteration metrics to both a CSV and a Markdown log file."""
+
+    CSV_FIELDS = [
+        "timestamp", "iteration", "strategy",
+        "wer", "der", "speaker_accuracy", "score",
+        "beam_size", "best_of", "temperature", "vad_threshold",
+        "clustering_threshold", "min_speakers", "max_speakers",
+        "similarity_threshold", "notes",
+    ]
+
+    def __init__(self, results_dir: Path | str):
+        self.results_dir = Path(results_dir)
+        self.csv_path = self.results_dir / "metrics_log.csv"
+        self.md_path = self.results_dir / "metrics_log.md"
+
+    def append(self, result: "OptimizationResult", strategy: str = "", notes: str = ""):
+        self._append_csv(result, strategy, notes)
+        self._rewrite_md(result, strategy)
+
+    def _append_csv(self, result: "OptimizationResult", strategy: str, notes: str):
+        write_header = not self.csv_path.exists() or self.csv_path.stat().st_size == 0
+        with open(self.csv_path, "a", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=self.CSV_FIELDS)
+            if write_header:
+                writer.writeheader()
+            p = result.parameters
+            writer.writerow({
+                "timestamp": result.timestamp,
+                "iteration": result.iteration,
+                "strategy": strategy,
+                "wer": f"{result.wer:.4f}",
+                "der": f"{result.der:.4f}",
+                "speaker_accuracy": f"{result.speaker_accuracy:.4f}",
+                "score": f"{result.score:.4f}",
+                "beam_size": p.get("beam_size", ""),
+                "best_of": p.get("best_of", ""),
+                "temperature": p.get("temperature", ""),
+                "vad_threshold": p.get("vad_threshold", ""),
+                "clustering_threshold": p.get("clustering_threshold", ""),
+                "min_speakers": p.get("min_speakers", ""),
+                "max_speakers": p.get("max_speakers", ""),
+                "similarity_threshold": p.get("similarity_threshold", ""),
+                "notes": notes,
+            })
+
+    def _rewrite_md(self, latest: "OptimizationResult", strategy: str):
+        # Read all existing CSV rows for history table
+        rows = []
+        if self.csv_path.exists():
+            with open(self.csv_path, newline="") as f:
+                reader = csv.DictReader(f)
+                rows = list(reader)
+
+        best = min(rows, key=lambda r: float(r["score"])) if rows else None
+
+        def status(val, target, lower_is_better=True):
+            try:
+                v = float(val)
+                t = float(target)
+                ok = v <= t if lower_is_better else v >= t
+                return "✅" if ok else "❌"
+            except (ValueError, TypeError):
+                return "⏳"
+
+        best_wer = best["wer"] if best else "—"
+        best_der = best["der"] if best else "—"
+        best_spk = best["speaker_accuracy"] if best else "—"
+
+        lines = [
+            "# Transcription Lab — Metrics Log",
+            "",
+            "Targets: **WER < 5%** | **DER < 10%** | **Speaker Accuracy > 95%**",
+            "",
+            "Updated automatically after every optimization iteration.",
+            "",
+            "---",
+            "",
+            "## Best Result So Far",
+            "",
+            "| Metric | Value | Target | Status |",
+            "|---|---|---|---|",
+            f"| WER | {f'{float(best_wer):.2%}' if best else '—'} | < 5% | {status(best_wer, 0.05)} |",
+            f"| DER | {f'{float(best_der):.2%}' if best else '—'} | < 10% | {status(best_der, 0.10)} |",
+            f"| Speaker Accuracy | {f'{float(best_spk):.2%}' if best else '—'} | > 95% | {status(best_spk, 0.95, lower_is_better=False)} |",
+            "",
+            "---",
+            "",
+            "## Iteration History",
+            "",
+            "| # | Time | WER | DER | Spk Acc | Score | Strategy | Key Params |",
+            "|---|---|---|---|---|---|---|---|",
+        ]
+
+        for r in rows[-100:]:  # Cap at last 100 rows
+            p_summary = (
+                f"beam={r.get('beam_size','')} temp={r.get('temperature','')} "
+                f"vad={r.get('vad_threshold','')}"
+            ).strip()
+            ts = r["timestamp"][:16].replace("T", " ") if r.get("timestamp") else "—"
+            lines.append(
+                f"| {r['iteration']} | {ts} "
+                f"| {float(r['wer']):.2%} | {float(r['der']):.2%} "
+                f"| {float(r['speaker_accuracy']):.2%} | {float(r['score']):.4f} "
+                f"| {r.get('strategy','')} | {p_summary} |"
+            )
+
+        lines += [
+            "",
+            "---",
+            "",
+            "## Notes",
+            "",
+            "- Log updated after every completed test iteration",
+            "- Score = weighted miss from targets (0.0 = all targets met)",
+            "- Params logged: beam_size, best_of, temperature, vad_threshold, clustering_threshold, similarity_threshold",
+        ]
+
+        self.md_path.write_text("\n".join(lines) + "\n")
+
+
 class ParameterOptimizer:
     DEFAULT_RANGES = {
         "beam_size": ParameterRange("beam_size", 1, 15, is_int=True),
@@ -133,6 +255,8 @@ class ParameterOptimizer:
         self.target = target or OptimizationTarget()
         self.results_dir = Path(results_dir)
         self.results_dir.mkdir(parents=True, exist_ok=True)
+        self.metrics_logger = MetricsLogger(self.results_dir)
+        self._current_strategy = "unknown"
 
         if resume_from and Path(resume_from).exists():
             self.history = OptimizationHistory.load(resume_from)
@@ -153,6 +277,7 @@ class ParameterOptimizer:
 
         logger.info(f"Strategy: {strategy}, max_iter: {max_iterations}, params: {parameters_to_tune}")
 
+        self._current_strategy = strategy
         if strategy == "grid":
             return self._grid_search(max_iterations, parameters_to_tune, base_params)
         elif strategy == "random":
@@ -173,6 +298,7 @@ class ParameterOptimizer:
             score=score, iteration=iteration, timestamp=datetime.now().isoformat(),
         )
         self.history.add(result)
+        self.metrics_logger.append(result, strategy=self._current_strategy)
         logger.info(f"Iter {iteration}: WER={wer:.4f}, DER={der:.4f}, SpkAcc={speaker_acc:.4f}, Score={score:.4f}")
         return result
 
