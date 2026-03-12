@@ -1,0 +1,3 @@
+# Place your ground truth transcripts here
+# Format: [START - END] SPEAKER: Text
+# Example: [00:00:05 - 00:00:12] Alice: Hello everyone.

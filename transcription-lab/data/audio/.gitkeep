@@ -1,0 +1,4 @@
+# Place your audio files here
+# Expected format:
+#   {name}_mic.wav - Microphone recording
+#   {name}_system.wav - System audio (other participants)

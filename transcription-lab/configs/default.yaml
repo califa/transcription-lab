@@ -1,0 +1,83 @@
+# Transcription Lab Configuration
+
+# Audio processing settings
+audio:
+  sample_rate: 16000
+  channels: 1  # mono for processing
+  chunk_duration_ms: 2000  # real-time chunk size
+  vad_threshold: 0.5
+  min_speech_duration_ms: 250
+  min_silence_duration_ms: 100
+
+# Faster-whisper settings for real-time
+realtime:
+  model_size: "base"  # tiny, base, small, medium, large-v2, large-v3
+  device: "auto"  # auto, cpu, cuda
+  compute_type: "auto"  # auto, int8, float16, float32
+  beam_size: 5
+  best_of: 5
+  temperature: 0.0
+  language: "en"
+  vad_filter: true
+  vad_parameters:
+    threshold: 0.5
+    min_speech_duration_ms: 250
+    min_silence_duration_ms: 100
+    speech_pad_ms: 30
+
+# Faster-whisper settings for post-processing (higher accuracy)
+postprocess:
+  model_size: "large-v3"
+  device: "auto"
+  compute_type: "auto"
+  beam_size: 10
+  best_of: 10
+  temperature: 0.0
+  language: "en"
+  vad_filter: true
+  word_timestamps: true
+
+# Diarization settings (pyannote)
+diarization:
+  model: "pyannote/speaker-diarization-3.1"
+  embedding_model: "pyannote/wespeaker-voxceleb-resnet34-LM"
+  min_speakers: 1
+  max_speakers: 10
+  clustering:
+    method: "agglomerative"  # agglomerative, spectral
+    threshold: 0.5
+    min_cluster_size: 3
+
+# Voice print settings
+voiceprints:
+  embedding_dim: 256
+  similarity_threshold: 0.75
+  min_samples_for_enrollment: 3
+  storage_path: "data/voiceprints"
+
+# Optimization settings
+optimization:
+  max_iterations: 100
+  target_der: 0.10  # 10% Diarization Error Rate
+  target_wer: 0.05  # 5% Word Error Rate
+  target_speaker_accuracy: 0.95
+  
+  # Parameter search ranges
+  search_ranges:
+    vad_threshold: [0.3, 0.7]
+    clustering_threshold: [0.3, 0.8]
+    min_speech_duration_ms: [100, 500]
+    beam_size: [3, 15]
+
+# Evaluation settings
+evaluation:
+  collar: 0.25  # tolerance in seconds for diarization boundaries
+  skip_overlap: false
+  detailed_metrics: true
+
+# Paths
+paths:
+  audio_dir: "data/audio"
+  transcripts_dir: "data/transcripts"
+  voiceprints_dir: "data/voiceprints"
+  results_dir: "results"
