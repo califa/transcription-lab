@@ -1,0 +1,48 @@
+2026-03-13T05:20:01+00:00 Starting next experiment (PID 1082016)
+Traceback (most recent call last):
+  File "/project/workspace/transcription-lab/scripts/evaluate_wer.py", line 21, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Completed experiments: 3
+
+=== Running experiment 1/14: large-v2 baseline ===
+Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v2 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v2 baseline
+Experiment failed with exit code 1
+2026-03-13T05:20:02+00:00 Experiment finished with exit code 0
+2026-03-13T05:20:03+00:00 Push failed
+2026-03-13T05:30:01+00:00 Starting next experiment (PID 2043811)
+Traceback (most recent call last):
+  File "/project/workspace/transcription-lab/scripts/evaluate_wer.py", line 21, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Completed experiments: 3
+
+=== Running experiment 1/14: large-v2 baseline ===
+Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v2 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v2 baseline
+Experiment failed with exit code 1
+2026-03-13T05:30:01+00:00 Experiment finished with exit code 0
+2026-03-13T05:30:01+00:00 Push failed
+2026-03-13T05:40:02+00:00 Starting next experiment (PID 3000421)
+Traceback (most recent call last):
+  File "/project/workspace/transcription-lab/scripts/evaluate_wer.py", line 21, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Completed experiments: 3
+
+=== Running experiment 1/14: large-v2 baseline ===
+Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v2 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v2 baseline
+Experiment failed with exit code 1
+2026-03-13T05:40:02+00:00 Experiment finished with exit code 0
+2026-03-13T05:40:03+00:00 Push failed
+2026-03-13T05:50:01+00:00 Starting next experiment (PID 3964089)
+Traceback (most recent call last):
+  File "/project/workspace/transcription-lab/scripts/evaluate_wer.py", line 21, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Completed experiments: 3
+
+=== Running experiment 1/14: large-v2 baseline ===
+Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v2 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v2 baseline
+Experiment failed with exit code 1
+2026-03-13T05:50:01+00:00 Experiment finished with exit code 0
+2026-03-13T05:50:02+00:00 Push failed

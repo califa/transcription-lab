@@ -12,3 +12,4 @@
 | 2 | small.en | 5 | 0.0 | True/0.5 | True | 0.6 |  | 20.79% | N/A | 20.79% | 644.9s | small.en cond_prev=True |
 | 3 | medium.en | 5 | 0.0 | True/0.5 | True | 0.6 |  | 19.62% | N/A | 19.62% ** | 1445.3s | medium.en cond_prev=True |
 | 4 | medium.en | 5 | 0.0 | True/0.5 | True | 0.6 | Product and strategy | 21.54% | N/A | 21.54% | 1529.0s | medium.en with context prompt |
+| 5 | large-v2 | 5 | 0.0 | True/0.5 | True | 0.6 |  | 95.25% | N/A | 95.25% | 2301.3s | large-v2 baseline |
