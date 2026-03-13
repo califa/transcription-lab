@@ -17,3 +17,4 @@
 | 7 | medium.en | 10 | 0.0 | True/0.5 | True | 0.6 |  | 21.21% | N/A | 21.21% | 2188.1s | medium.en beam=10 |
 | 8 | medium.en | 1 | 0.0 | True/0.5 | True | 0.6 |  | 21.40% | N/A | 21.40% | 872.1s | medium.en beam=1 greedy |
 | 9 | medium.en | 5 | 0.0 | True/0.35 | True | 0.6 |  | 19.37% | N/A | 19.37% ** | 1624.0s | medium.en vad=0.35 more sensitive |
+| 10 | medium.en | 5 | 0.0 | True/0.65 | True | 0.6 |  | 19.87% | N/A | 19.87% | 1604.8s | medium.en vad=0.65 less sensitive |
