@@ -1,0 +1,200 @@
+Them: Mhmm. Guys. How are you? Hi, everyone. Hello. Hello, everyone. Good? Doing well. New York is really keeping us on our toes. It was like, gorgeous blue sky, 70 degree day. Two days ago, and it is snowing right now. Oh, Jesus. We don't have snow equipment. I don't have a little baby snow jacket. We're gonna be in New York next week. The weather is gonna be perfect. But We're not gonna go for this. It's snowing now. Oh, Jesus. Yeah. I just It's okay. It's it's a it's a dusting of snow. I literally told him was in New York, so Sorry. Sorry. He's coming. He's coming. Just off off screen.  
+Me: Locked screen. Alright.  
+Them: Sorry. Go ahead.  
+Me: Alright. Yeah.  
+Them: Yes.  
+Me: So I I want  
+Them: So he Hewan and I are jamming on that  
+Me: You know, on the today, we just just came out of meeting with Austin. I think, like,  
+Them: Today, we just came out of a meeting with Austin. I think, like,  
+Me: based on the progress we just made in the last couple of hours,  
+Them: based on the progress we just made in the last couple of hours, we're gonna have, like, a pretty clear cut, like, here's what  
+Me: We're gonna have like, a pretty clear cut, like, here's what the v two actual shit shit ready.  
+Them: the v two actual ship ship ready design looks like.  
+Me: Design looks like. And  
+Them: Uh-huh. And  
+Me: as well as, like, what  
+Them: as well as, like, what the kind of future should hold. And so we're the  
+Me: kind of future it could hold. So for the thing is going to be directionally  
+Them: thing we ship is going to be directionally  
+Me: correct.  
+Them: correct.  
+Me: Yeah, we should we should  
+Them: Yeah, we should we should  
+Me: ideally, like,  
+Them: ideally, like,  
+Me: depending on progress today, we should have some kind of idea of what that is.  
+Them: depending on progress today, we should have some kind of idea of what that is even as early as today.  
+Me: Even as early as today. Okay. So  
+Them: Okay. So this is that.  
+Me: this go ahead. Sorry. What's the question?  
+Them: This is what? Sorry. What's the question? It is it is it is not an accurate  
+Me: Yeah.  
+Them: Yeah. So when is the meeting at what's the schedule of this? Are we being Then the light piece but it feels pretty clearly in the right direction. So I think it's an open question around do it, but would Yeah. I've also  
+Me: Yeah. I won't call that, like, I  
+Them: wanna call out, like, I've  
+Me: I heard I don't even remember where  
+Them: I've heard I don't even remember where, but I've heard, like, Aiden being on three things starting next week.  
+Me: heard, like, payment being on three separate things. Starting next week. Or, like,  
+Them: Or, like, opportunities for Aiden to, like, staff three separate  
+Me: opportunity for to, like, staff three separate things So we should just also make sure that  
+Them: things. So we should just also make sure that there's not  
+Me: there's not you know, cross  
+Them: you know, across the teams, there's not also other places we're expecting him.  
+Me: team, there's not also other places we're expecting it.  
+Them: So before we I don't even know what he That I shared out lose. The path it's the filter between two path forward, the direction Yes. It's still just two UX audit. So router is is a it a broader amount. A has this weird set of priorities that we just go with the right way. I I think I think things are are pretty let's let's have Solomon scope the actual tech technical implementation lift.  
+Me: Yeah.  
+Them: Okay. Yeah.  
+Me: Yeah. I think there's also, like, weekend  
+Them: Yeah. I think there's also like, we can  
+Me: we can scope  
+Them: we can scope different things as  
+Me: different things as follows, I think.  
+Them: follows, I think. So for instance, like, the property attributes  
+Me: For instance, like, the property attributes under it, but we can  
+Them: under it. Like, we can decide what actually needs to be in the first like, GA of this versus what can come in later.  
+Me: decide what actually needs to be in the first like, GA of this. First what can come in later.  
+Them: I have a quick question. Practice work now? And then the post hoc Yeah. Yep. He's he's still over the Okay. So and and so this would this would follow, I guess. Yeah. Sequential. Okay. Okay. Okay. Do you, JP, ever since I was a It's dependent on the customer end use. So far, most of the calls, honestly, have been post hoc. Heavy, which post hoc looking really good, but we do need to get second, like, a couple second calls and then maybe, like, one or two more intense calls before we we start reaching, like, A territory where you feel solid to push. To GA. But I I think we're getting close. The recent revs are general revs on the front end design that like, super post op specific. Basic things, like, re like, a refresh functionality, like, button within the events console. So I'm hopeful that the future ones don't expose that much. Delta between current state. Okay. So Fabian, can you maybe work on I'll circle back with Austin and this Austin, are you also covering as part of that work the custom objects API like, in tandem. Because I remember the last time we talked earlier this week, that was the plan. But is that how it's going? Yeah. So the the two pieces of scope here is that UltraPiller UX is, you know, square like a little bit too. And then it's also the build out on the objects page for the being able to see records associated with those objects, and the primary job to be done is hey. I just sent this thing over via API. Like, can I see that, like, how this object is the world, but it's a clear that's that's already designed and passed off to Adi for whatever is is right? And it and does that basically just cover what the custom object API line is? In the tracker? I I think I think we should exalt it. Yes. I think there is probably someone on the back end side of things to that. There's a little bit of there's, like, two note things that we need to do. And then some I'm sure I'm gonna as well. Kevin started working on one of them already. These week, which is slowness in invested filters in the filters we can do. Is a cosmography slash 52. Slowness in nested filters in Dolby Video. So is that a front end embedded, or are Okay. As small other side win, Kevin also found an amazing choreography optimization that should speed up our slowest audiences even more. Kevin's out of control. Kevin's out of control. Okay. So it's more like Okay. So between this is all top here. This is gonna go Austin, you wanna just put your name down as PM for those? Yep. Cool.  
+Me: Yeah.  
+Them: Yes. Yeah. So This is Yeah. I had him ask out to Hailey actually to lean in here. But she ended up right. Because of the the whistling prioritizing that over the beta program. She sent me back to me back in the week. So she's just checking Obviously, there was But we still need to solve the beta that we're gonna be continue to be a problem. Okay. Is this gonna be longer that you're gonna complete release, or are we gonna I think it's a blocker for the upcoming release. Any upcoming releases, we would just have to I think the solution is basically we do it the whole way until this lands. Which is the best solution. I also honestly, I feel like I wrote up enough context to send it over to Haley that he could probably just pass that to Claude and have to do, beta programs that are out there today so you could be generating an output that's, like, good enough to to form an opinion. So I might just do that depending on where she's at. Sorry. Remind me again. Why is this this action that I was saying that you lead? This is our broader beta program. This is more of just, like, an interesting, like, area for and keeping our skill set. She expressed interest in in working on more things. So the the first yeah. We have a sequence The first thing is just rewinding jobs done. We really need to just do that. We need it for the like, all our strategy as well. Yeah. Could just  
+Me: Sorry.  
+Them: this that you working? Yeah. Is this is this  
+Me: Yeah. Probably  
+Them: Yeah. Probably mid April.  
+Me: late April. Like a month and a week.  
+Them: Like, a month and a week from now, I think.  
+Me: From now, I think.  
+Them: Okay. This feels urgent. Maybe we should just prioritize this. Let's Is there, like, a a or would you Jacob, what do you imagine is the alpha math meeting? It's it's not so much the so, basically, the decision is, like, what are jobs we gotten? We feel comfortable with? In order to leverage to for for the marketing side. Then for the way that we we position our products. And the value of process to do that. I this is this is a concern I I think I read last week. Basically, like, we we team about your prop. That doesn't have one to one to jobs we've done relying on. Building product around. Then we're inherently similar ourselves for some amount of disconnect. And, like, cognitive I see one thing that they're talking to our product and see how  
+Me: Great.  
+Them: knock about driving clarity.  
+Me: Great.  
+Them: This might mean it's a concern. It's a short term concern. Just think we need to align faster than I imagine it's not. The case to wrap up the copy, but I don't know how far along those are on copy.  
+Me: Copy is always  
+Them: Copy is always  
+Me: changeable. Think.  
+Them: changeable. I  
+Me: Austin, Clinton, and I kind of agreed on coffee for most  
+Them: Austin, Quentin, and I have kind of agreed on copy for most pages.  
+Me: pages. That mean  
+Them: That doesn't mean  
+Me: it's set in stone everywhere.  
+Them: it's set in stone everywhere.  
+Me: And I think copy, like, even post roll out is the thing we  
+Them: And I think copy, like, even post rollout is a thing we have full control over.  
+Me: have full control over. So, like, it's less, like,  
+Them: It's, like, it's less, like, stuck in, like, design.  
+Me: stuck in, like, design. The question is, like, that mean we don't touch it pre rollout. It means that we have  
+Them: The question is, like, that doesn't don't touch it prerollout. It means that we have  
+Me: control over it. I do think  
+Them: control over it.  
+Me: a good  
+Them: I do think it's a good stage here for y'all to, like,  
+Me: state here y'all to, like, think and make that we are  
+Them: sync and make sure that we are  
+Me: consistent across all kind of internal, external channel channels  
+Them: consistent across all kind of internal, external challenge channels  
+Me: around how we talk about this stuff.  
+Them: around how we talk about this stuff.  
+Me: And so are the link  
+Them: And so far, the, like, product  
+Me: product input to this  
+Them: input to this  
+Me: have been Austin and me.  
+Them: have been Austin and and me.  
+Me: One of the  
+Them: Or, like, generally  
+Me: generally not as close to the ground.  
+Them: not as close to the ground always. So, like, we we should  
+Me: Always. Like, we we should definitely include your input in in  
+Them: definitely include your input in in  
+Me: whether matches up Austin here.  
+Them: whether everything matches up. Austin, you  
+Me: Agree with that?  
+Them: like you agree with that? Yeah. My my question should be that James and and or James and Liz, I was just to point in and just make sure that you agree with the page taxonomy in particular. Like, a broader framework of the pages that we're building and how they line up with the job to be done. Tactical copy stuff, I have reviewed copy. I have given the feedback to you. So anyways, make it go that way closer to shipping, I'm gonna But to to deleting pages, not a new one. It's like, okay. Like, what are the words in this one specific page? Page? So I would say, yeah, high level structure. It with the money. Okay. Yeah. I think what James and I have talked about is just the overall narrative of how we're describing the products. Like, in our product today, it's data in action. Then exploring it in the new website. It'll be more of a flow that mimics the general, like, go to market journey that most people go through. But we'll we'll talk with Quinn. Cool. Can can you all do a share out after you chat with one just, like, if you feel like we need to change anything, maybe we can just flag it early. Yeah. Cool. Okay. Sorry. I don't know. Joel was just related to the website.  
+Me: The this was like,  
+Them: This this was the the  
+Me: the one of the outfits  
+Them: This is one of the outputs from the kind of conversation  
+Me: the kind of conversation James, Liz are having  
+Them: James and Liz are having  
+Me: which is like, we  
+Them: with just, like, we could create some kind of AI  
+Me: could create some kind of AI capabilities so that everyone  
+Them: capabilities so that everyone knows  
+Me: knows how to talk about the company in different  
+Them: how to talk about the company in different contexts.  
+Me: context. Just like a guidance type thing.  
+Them: Just like a guidance type thing.  
+Me: The  
+Them: The I I didn't agree to do this.  
+Me: I I agree. James said  
+Them: James said, is doing this. And I said,  
+Me: was doing this. And I said, I'm doing this, I guess.  
+Them: I'm doing this, I guess.  
+Me: And AI was like, Joel's doing this.  
+Them: And then AI was like, Joel's doing this.  
+Me: So  
+Them: So, like, Can I can I cross off for now? I I do think this would be valuable. I'm I'm targeting the growth You know, it's, like, pretty similar to this afternoon. So I'll see if we can hack something maybe  
+Me: Cool.  
+Them: Okay. Cool. Then the last one was I basically, like, we have people that are coming up in a week and a half. Around Some of the output from research goals and we're gonna kick that off K. Sweet. There's Yeah. That is all I had. What else does this sound like? I guess, like, maybe one other thing that I have is around YouTube logistics. So we talked about let's just period timelines. Like, we're gonna I'm gonna set up just like a few meetings over the next few weeks. To review these things. You know, like, stakeholder reviews, road map reviews, making sure that we're sort of And then we'll work on the logistics of all the a more tighter and better process. So this is just a quick time that we had laid out. So how how are thinking about roles and responsibilities in the planning process? Gosh. I'm just trying to have a So we have these pods So what I'm basically gonna be more of a thinner in terms of I'm just getting the problem discovery solution validation estimation, BRs for each And then, obviously, it's like, I'm gonna be the in And then Yeah. I still have the same I'm just gonna say the same thing about it. I shared earlier in the week of, like, sorry, Arjun. I realized this is annoying. But I feel like we still need some kind of more holistic Unify product strategy. To help inform this. Yes. Let's plan on this for sequencing. Like, I think let's wrap the we're doing the spike on customer use right now, which I think is gonna be a lot of core of, like, how we think about these things. Some of the platform stuff will just be independent of of that. But let's wrap up that spike in distillation. And then let's plan, like, shortly thereafter to, like, wrap up strategy doc. I can sort of be key DRI on that and get input from everybody here. And then we can use that as a basis for the q two roadmap stuff. If you like five minutes week, there's a time when I get a draft. Yeah. I think so. Let me yeah. Well, I I at least you're right. Yeah. Okay. Yeah. James, So I I realized that this might change I just know that it does, though. Okay. So maybe, like, we are fine with this one. We need to make this. Right? Okay. I can see both sides Three pillars. I think I guess my client hunched out me an element of the discussions of the project, it will be very We wanna have you know, we want it to be easy to use ourselves. Which is if it was down market. And then the rest is a more right way, which is what we use to do. We will change that, James, but I wanna at least see the readout. Before before.  
+Me: Yeah. I  
+Them: Yeah. I  
+Me: I think like,  
+Them: I think, like,  
+Me: when we're discussing, like, such a  
+Them: when we're discussing, like, such a  
+Me: change in  
+Them: change in  
+Me: like, such a  
+Them: like, such a big bet  
+Me: that the  
+Them: these will inherently have to change. Like, there's no world in which we're  
+Me: changed. Like, there's no real  
+Them: making such a big bet and such a big change and, like, we're just using the same things.  
+Me: change. And, like, we're just using the same thing. Because, like, I  
+Them: Because, like,  
+Me: feels  
+Them: I just inherently, it feels like  
+Me: like these would obviously be different if  
+Them: these would obviously be different if we're now going to focus on a  
+Me: now to focus on different energy  
+Them: on a different area or on, like,  
+Me: of work.  
+Them: you know, like there's trade offs.  
+Me: Trade If we're, like,  
+Them: If we're, like,  
+Me: equally being like  
+Them: equally being, like, win the '2,  
+Me: the BDR. But we're also saying let's pull out all of our resources from, like, the x features that we wanna build for them. For the VDR. Put them on. This feature. Then that's a different that's a different thing. Right? I think, like, depending on what we wanna do in q two, how  
+Them: and and how we want to lead this kind of, like,  
+Me: want to leave this kind of like, you know, resolution.  
+Them: you know, revolution  
+Me: We should  
+Them: we should probably have these aligned with that, whatever that is.  
+Me: probably have these aligned with that, whatever that is. Versus just, like,  
+Them: Versus just, like, par for the course. You know? Like,  
+Me: hard for the course. You know? Like, every other quarter.  
+Them: every other quarter. Yeah. Definitely. Companies, like, no private give AOB as powers to rest. Which I think is actually probably the future of, like, what the BDR job is to Like, tools that are highly technical have been inaccessible to wrap because they are too technical in mass. Four years, whatever it is, Now we're in an era where maybe that's not true anymore. And so one new one more and just one way or the other, but I do think that, like, a lot of the course still still  
+Me: Agree. I'm not saying, like,  
+Them: I agree. I'm not saying, like like,  
+Me: like Arjun said, like, they bubble up into all these things.  
+Them: Arjun said, like, they bubble up into all these things. Like, if we think, like, dialers,  
+Me: Like, if we think, like, dialers definitely, like, in with the VDR.  
+Them: definitely, like, in when the BDR like, list building is definitely both in that and in, like, Unify self  
+Me: Like, list building definitely both of that and like we Unify self serve. Like, don't think these are irrelevant.  
+Them: serve. Like, I don't think these are irrelevant.  
+Me: I do think, like, if  
+Them: I do think, like, if one of the big themes is, like,  
+Me: one of the big thing is like, make Unify future proof,  
+Them: make Unify future proof,  
+Me: you know,  
+Them: You know? Or, like,  
+Me: or, like, build bill  
+Them: build build a thing that is gonna last  
+Me: a thing that gonna last. In, like, the new era.  
+Them: in, like, the new era, and that's not explicitly  
+Me: And that's not explicitly represented here.  
+Them: represented here. I I think that sends the wrong message.  
+Me: I think that sends the wrong message.  
+Them: I think I I think you should just, like, basically make a call once we have. I think, like, independent of this, we're, like, working on product strategy. And then product strategy doc will help it before this. Whether we change these or don't change these. Seems seems likely the loss of just clarity It's going. See. The hardest thing is, like, nobody's like begging for this feature. So it ends up turning into, like, a sales call. It's like pre conviction that this would be valuable for you guys. You should turn it on. Then end up having to, like, pitch them on it. Some people are really easy. They're like, yep. I get it. I'll turn it on. Like, Gummuth yesterday was fantastic. Turn it on within, like, ten minutes. It was super seamless. So going well for the folks that are, like, excited about it and meeting in, but it's also just like and then we needed to reach out to more people for sure. That's all we need to reach out to more people. But it's not like people are knocking on our door, like, screaming for this. Sorry. Just another one question on that. I think another time. Is if you're No. No. There's definitely there's definitely value for it. I think it's just people aren't fully, like it's in that new market. Like, we're building new functionality that people aren't fully aware of yet. It's similar to the Like like, our core value prop with with form intent. Right? Where people are waiting on your marketing website, like, that's great signal to leverage. And bunch of other companies still lean product use data is leaning more into that as part of our differentiator and yeah. It's not as obvious, but obviously, it's good. Okay. Do you know? James, I think it's good learning. We should just, like let's, like, try let's, like, record a video that shows the, like, hero workflow value prop of it. And just start including that when we ask people if they wanna take a call. And then we move we'll, like, learn and then we launch this. We just clearly kind of, like, a sell all in the Yeah. I I agree. There there's definitely a learning here on, like, acing and comms to get people in the right head space. So definitely learning myself, Matt, that, like, we could do a better job. Moving forward on Awesome. So this kind of a shift, Austin's LinkedIn? I think is our most traffic. We Marketing channel. We do after launch. Okay. Yeah. In the email format or, like, Usually not video format. Usually in text. Video doesn't perform well well like that. I see. Okay. Which is maybe it's just, like, a very to not do it, but that is, like, an adara's hash point ticket. Yeah. Yeah. Yep. Yep. Alright, guys.  
+Me: Thanks. 

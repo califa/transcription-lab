@@ -1,0 +1,86 @@
+{
+  "appVersion" : "1.0",
+  "buildNumber" : "1",
+  "endedAt" : "2026-03-12T21:32:51Z",
+  "events" : [
+    {
+      "frameCount" : 937,
+      "framePosition" : 93120,
+      "kind" : "gapFilled",
+      "seconds" : 0.019520833333333334,
+      "track" : "system"
+    },
+    {
+      "frameCount" : 2530,
+      "framePosition" : 84081577,
+      "kind" : "trailingSilence",
+      "seconds" : 0.052708333333333336,
+      "track" : "system"
+    },
+    {
+      "frameCount" : 6827,
+      "framePosition" : 0,
+      "kind" : "leadingSilence",
+      "seconds" : 0.14222916666666666,
+      "track" : "microphoneRaw"
+    },
+    {
+      "frameCount" : 1440,
+      "framePosition" : 43740107,
+      "kind" : "gapFilled",
+      "seconds" : 0.03,
+      "track" : "microphoneRaw"
+    }
+  ],
+  "outputDirectory" : "\/Users\/joel\/Movies\/OatsTesterCapture\/20260312-170339",
+  "processing" : {
+    "apmDelayMs" : 32,
+    "buildIdentifier" : "webrtc-aec3+delay-stats|helloooideeeeea\/webrtc-audio-processing@v1.3_ios_macos|upstream=6a8da66f3a3eafb4ccf0fd3dfbef263e6e60ac17",
+    "delayAdjustments" : 1,
+    "delayConfidence" : 0.9860592027555787,
+    "delayLockedAtSeconds" : 5.32,
+    "enabled" : true,
+    "estimatedDelayMs" : 20,
+    "maxEchoReturnLoss" : 20,
+    "maxEchoReturnLossEnhancement" : 6.193838119506836,
+    "maxResidualEchoLikelihood" : 0.593887984752655,
+    "maxResidualEchoLikelihoodRecentMax" : 0.593887984752655,
+    "passthroughFrameCount" : 0,
+    "processor" : "webrtc-aec3+delay",
+    "skippedFrameCount" : 0
+  },
+  "sessionID" : "20260312-170339",
+  "startedAt" : "2026-03-12T21:03:39Z",
+  "tracks" : [
+    {
+      "channels" : 2,
+      "durationSeconds" : 1751.7522291666667,
+      "fileName" : "system.wav",
+      "firstPTSSeconds" : 436679.009850333,
+      "lastPTSSeconds" : 438430.689371125,
+      "path" : "\/Users\/joel\/Movies\/OatsTesterCapture\/20260312-170339\/system.wav",
+      "sampleRate" : 48000,
+      "track" : "system"
+    },
+    {
+      "channels" : 1,
+      "durationSeconds" : 1751.7522291666667,
+      "fileName" : "mic_raw.wav",
+      "firstPTSSeconds" : 436679.15208333335,
+      "lastPTSSeconds" : 438430.7520833333,
+      "path" : "\/Users\/joel\/Movies\/OatsTesterCapture\/20260312-170339\/mic_raw.wav",
+      "sampleRate" : 48000,
+      "track" : "microphoneRaw"
+    },
+    {
+      "channels" : 1,
+      "durationSeconds" : 1751.7522291666667,
+      "fileName" : "mic.wav",
+      "firstPTSSeconds" : 436679.009850333,
+      "lastPTSSeconds" : 438430.759850333,
+      "path" : "\/Users\/joel\/Movies\/OatsTesterCapture\/20260312-170339\/mic.wav",
+      "sampleRate" : 48000,
+      "track" : "microphone"
+    }
+  ]
+}

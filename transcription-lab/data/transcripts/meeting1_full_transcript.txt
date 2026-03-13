@@ -1,0 +1,987 @@
+Arjun Shah | 00:03
+Everyone hello everyone, good.
+Joel Califa | 00:03
+Everyone.
+Well, New York is really keeping us on our toes.
+Liz Harder | 00:14
+Doing. Well, New York is really keeping us on our toes.
+Joel Califa | 00:18
+It was like a gorgeous blue sky, 70-degree day two days ago, and it is snowing right now.
+Liz Harder | 00:18
+It was like a gorgeous blue sky, 70-degree day two days ago, and it is snowing right now. [Laughter].
+Joel Califa | 00:25
+Jesus, [Laughter] we don't have snow equipment.
+Austin Hughes | 00:25
+Jesus, we don't have snow equipment.
+Joel Califa | 00:28
+I don't have a little baby snow jacket and my daughter.
+Austin Hughes | 00:29
+I don't have a little baby snow jacket or my daughter.
+Joel Califa | 00:31
+We're going to be in New York next week.
+Austin Hughes | 00:32
+We're gonna be.
+Arjun Shah | 00:32
+In New York next week.
+Joel Califa | 00:33
+The weather is going to be perfect.
+Austin Hughes | 00:34
+The weather is going to be perfect.
+Joel Califa | 00:35
+But we're not geared up for this snowing.
+Austin Hughes | 00:36
+But we're not geared up for this snowing. Now, I just... It's okay.
+Joel Califa | 00:37
+Now, I just... It's okay, it's a dusting of snow.
+Liz Harder | 00:40
+It's a dusting of snow.
+Arjun Shah | 00:46
+Who said?
+Joel Califa | 00:46
+It's going to be seven, so, all right, well, why don't we get started?
+Arjun Shah | 00:51
+All right, well, why don't we get started?
+Joel Califa | 00:52
+James, I don't know where he is, but he's sorry.
+Arjun Shah | 00:53
+James, I don't know where he is.
+Joel Califa | 00:58
+He's coming.
+Liz Harder | 00:58
+He's coming.
+Joel Califa | 00:58
+He's coming just off-screen.
+Sorry, I wanted to spend the course.
+Arjun Shah | 01:07
+I wanted to spend maybe the first couple of minutes covering actions from the last few meetings, so I'll let James SA in on the first.
+Joel Califa | 01:08
+I want to cover actions from the last few meetings. So I'll let James out. The months for the first three are assigned the, I guess, I mean, that's number two.
+Arjun Shah | 01:17
+Three are assigned.
+Austin Hughes | 01:18
+To him.
+Arjun Shah | 01:20
+Or I guess like maybe Joel that's number two.
+Joel Califa | 01:22
+Number three are jointly assigned to you and you want to give a quick update.
+Arjun Shah | 01:23
+Number three are jointly assigned to you. Do you want to give a quick update on filters? It looks like there was... What's...
+Joel Califa | 01:31
+So Hawan and I are jamming on that today. We just came out of a meeting with Austin. I think, based on the progress we just made in the last couple of hours, we're going to have a pretty clear cut...
+Here's what the V2 actual ship-ready design looks like.
+Arjun Shah | 01:51
+One.
+Joel Califa | 01:52
+And as well as like what the kind of future should hold. And so the thing we ship is going to be directionally correct. But yeah, we should ideally, like depending on progress today, we should have some kind of idea of what that is even as early as today.
+Okay, so this is what sorry, what's the question is it this is not an accurate depiction of assuming like the schedule of this project.
+Arjun Shah | 02:13
+Okay, so this is exactly non-accurate, right? Is it? This is not an accurate depiction I'm assuming of a schedule.
+Joel Califa | 02:24
+No, I don't think so.
+Austin Hughes | 02:24
+No, I don't think so. I think it's...
+Joel Califa | 02:25
+I think it's earlier in the quarter.
+James Grinage | 02:26
+Earlier in the quarter.
+Joel Califa | 02:27
+Yeah.
+So what is the...
+Arjun Shah | 02:30
+So what is the... Do we have what the schedule is or do we still need to...? Has not been involved.
+Joel Califa | 02:31
+Do we have what? The schedulers? Or do we still need to like Andrew's not been involved and just beenlightly involved?
+Austin Hughes | 02:39
+And just been lightly involved.
+Joel Califa | 02:40
+Just been lightly involved. I think the version and Joel and I just jamming on with Haywan would require more front-end change than the light tweaks, but it feels pretty clearly in the right direction.
+Austin Hughes | 02:40
+I think the version and Joel and I just jamming on with Haywan would require more front-end change than the light tweaks, but it feels pretty clearly in the right direction.
+Joel Califa | 02:51
+So I think it's an open question there on front-end scope and if it could be successful in executing on his own or we would need to pull in some... Solomon.
+Austin Hughes | 02:52
+So I think there's an open question there on front-end scope and if... Solomon could be successful in executing that on his own or we would need to pull in someone like Solomon.
+Joel Califa | 02:59
+I think I'm pretty bullish that Aden would be able to do it, but would want to check with both him as well as you.
+Austin Hughes | 03:00
+I think I'm pretty bullish that Aden would be able to do it, but would want to check with both him as well as you.
+Joel Califa | 03:07
+Yeah, I've I want to call out like I've. I've heard. I don't even remember where, but I've heard. Like AID and being on three separate things. Starting next week or like opportunities for Aden to like staff three separate things.
+So we should just make sure that there's not, you know, across the teams, there's not other places we're expecting him. So like what I don't even know what the end scope here is because I have is there is a spec on the sitting in front of Designs or whatever is one remain yeah There's again that filter me to the channel.
+Arjun Shah | 03:29
+So before we talk about that, what I don't even know what the end spec here is because I have... There is a spec I'm assuming in final designs or whatever is remaining.
+Austin Hughes | 03:39
+Yeah, there is in filters V2, the channel, there's a doc that I shared out.
+Joel Califa | 03:41
+There's a doc that I shared out.
+I saw the design...
+Arjun Shah | 03:52
+I saw the design Looms.
+Joel Califa | 03:54
+It's the path.
+Austin Hughes | 03:55
+It's the path.
+Joel Califa | 03:55
+It's the filters.
+Austin Hughes | 03:55
+It's the filters V2 path 4 that sort of outlines the broader scope.
+Joel Califa | 03:56
+V2, path 4. That sort of outlines the broader scope or is the UX audit one?
+Austin Hughes | 04:01
+Or as the UX audit one, it's filters V2 UX audit spoke market in the channel.
+Joel Califa | 04:06
+Yeah, it's filters me too UX audit spoke parking channel. So Robert, are you writing on about products or are you in of speech yourself?
+Austin Hughes | 04:11
+So...
+Arjun Shah | 04:13
+Robert, are you ready on this project or do you need to...? The new project we... Again?
+Joel Califa | 04:23
+Yeah, I mean, this is a school project.
+Arjun Shah | 04:23
+Yeah, I mean, this is a school project.
+Joel Califa | 04:25
+I'm just didn'.
+Austin Hughes | 04:26
+I just didn't... Where you're going out next.
+Joel Califa | 04:26
+You're going out next?
+I mean, I think I feel pretty...
+Austin Hughes | 04:29
+I mean, I think I feel pretty.
+Joel Califa | 04:30
+I feel pretty good that I can sort of cover this on the...
+Austin Hughes | 04:30
+I feel pretty good that I can sort of cover this on the.
+Joel Califa | 04:33
+Like. I'll work with James.
+Austin Hughes | 04:33
+Like. I'll work with James.
+Joel Califa | 04:34
+Make sure that it has a clear set of priorities and that we scope it the right way.
+Austin Hughes | 04:35
+Make sure that it has a clear set of priorities and that we scope it the right way.
+Joel Califa | 04:39
+I think things are pretty smooth.
+Austin Hughes | 04:40
+I think things are pretty smooth here.
+Joel Califa | 04:42
+My web.
+Arjun Shah | 04:42
+My way.
+Joel Califa | 04:43
+Let's have Solomon scope the actual technical implementation lift because it doesn't know this code path at all yet and will underestimate it.
+Austin Hughes | 04:44
+Let's have Solomon scope the actual technical implementation lift because it doesn't know this code path at all yet and will underestimate it.
+Joel Califa | 04:53
+So let's have solid at least double-check it.
+Austin Hughes | 04:53
+So let's have solid at least double-check it.
+Arjun Shah | 04:56
+Okay.
+Joel Califa | 04:58
+Yeah, I think there's like, we can scope different things as follows, I think. So for instance, like the property attributes under it. Like we can decide what actually needs to be in the first like D of this versus what can come in later. One quick question isn't an wrapping up the recommends work now and the post hog?
+Fabian Wikstrom | 05:17
+One quick question isn't wrapping up the event work now and then the post-hog, yeah.
+Joel Califa | 05:25
+Yeah, he's still working on that.
+Austin Hughes | 05:26
+He's still working on that.
+Joel Califa | 05:28
+Okay, so and so this would follow I guess yeah, sequential.
+Fabian Wikstrom | 05:28
+Okay, and so this would follow, I guess.
+Austin Hughes | 05:32
+Yeah, sequential.
+Joel Califa | 05:33
+Okay, you, James, do you have a good sense of our... Or James, on the amount of work?
+Austin Hughes | 05:34
+Okay.
+Arjun Shah | 05:36
+Do you me do you have a good sense of like our cobe or James like on amount of work remaining on track of it for next week and the week after or.
+Joel Califa | 05:41
+We're on track for events for next week and the week after. Or is it like it's dependent on the customer interviews?
+James Grinage | 05:49
+It's dependent on the customer interviews.
+Joel Califa | 05:53
+So far, most of the calls, honestly, have been post-hog heavy, which post-hog is looking really good, but we do need to get a segment like a couple of segment calls and then maybe one or two more intent client calls before we start reaching a territory where we feel solid to push to GA, but I think we're getting close.
+James Grinage | 05:53
+So far, most of the calls, honestly, have been post-hog heavy, which post-hog is looking really good. But we do need to get a segment like a couple of segment calls and then maybe one or two more intent client calls before we start reaching a territory where we feel solid to push to GA, but I think we're getting close.
+Joel Califa | 06:20
+The recent revs are general revs on the front-end design that aren't super post-hog specific basic things like a refresh function at a button within the Events console.
+James Grinage | 06:20
+The recent revs are general revs on the front end design that aren't like super post hog specific basic things like a re like a refresh function at like a button within the Events console.
+Joel Califa | 06:34
+So I'm hopeful that the future ones don't expose that much delta between the current state.
+James Grinage | 06:35
+So I'm hopeful that the future ones don't expose that much delta between the current state.
+Joel Califa | 06:41
+Okay, so far, can you maybe work with Solomon to scope basically just figure out the tasks we just got to decompose one of the tasks?
+Arjun Shah | 06:42
+Okay, so I mean, can you maybe work with Solomon to that basically just figure out like the tasks like we just got to decomposes mu the.
+Austin Hughes | 06:56
+We talk about for filters.
+Joel Califa | 07:04
+I'll. I'll circle back with Austin and Solomon on this.
+Fabian Wikstrom | 07:04
+I'll circle back with Austin and Solomon on this.
+Joel Califa | 07:18
+Awesome.
+Arjun Shah | 07:19
+Awesome.
+Joel Califa | 07:19
+Are you covering as part of that work the custom objects API in tandem?
+James Grinage | 07:19
+Are you covering as part of that work the custom objects API in tandem because I remember the last time we talked earlier this week that was a plan?
+Joel Califa | 07:25
+Because I remember the last time we talked earlier this week that was a plan.
+But is that how it's going?
+James Grinage | 07:29
+But is that how it's going?
+Joel Califa | 07:31
+Yes. So the two pieces of scope here are the filter builder UX, which is squarely filed to V2.
+Austin Hughes | 07:32
+Yeah. So the two pieces of scope here are the filter builder UX, which is squarely built to V2, and then it's the build out on the objects page for the being able to see records associated with those objects.
+Joel Califa | 07:38
+And then it's the build out on the objects page for the being able to see records associated with those objects.
+The primary job to be done is, "Hey, I just send something over to the API like, 'Can I see that my customer object is coming in?'"
+Austin Hughes | 07:47
+The primary job to be done is, "Hey, I just send something over to the API like, 'Can I see that my customer object is coming in?'"
+Joel Califa | 07:53
+So it's not like I would say the most elegant solution in the world, but it's a clear line up with being able to help people do the initial debugging, and that's already designed and passed off to eight or whenever he's Ready for it.
+Austin Hughes | 07:53
+So it's not like I would say the most elegant solution in the world, but it's clear that it lines up with being able to tell people to do the initial debugging, and that's already designed and passed off to a... For whenever he's ready for it.
+Joel Califa | 08:07
+It does that basically just cover what the Custom Objects API line is in the tracker.
+James Grinage | 08:08
+Does that basically just cover what the Custom Objects API line is in the tracker?
+Joel Califa | 08:13
+I think we should consolidate it.
+Austin Hughes | 08:14
+I think we should consolidate it.
+Joel Califa | 08:15
+Yes, I think there is probably some unknowns on the back end side of things.
+Austin Hughes | 08:15
+Yes. I think there is probably some unknowns on the backend side of things.
+Joel Califa | 08:18
+Yeah, there's a little bit of there's like two known things that we need to do and then some, I'm sure, UNN things as well.
+Austin Hughes | 08:19
+Yeah, there's a little bit of there's like two known things that we need to do and then some, I'm sure, unknown things as well.
+Joel Califa | 08:27
+Kevin started work on one of them already this week, which is slowness in investment filters v2, which is a custom SLA filter v2.
+Austin Hughes | 08:27
+Kevin has started to work on one of them already this week, which is slowness in investment filters v2, which is a custom object SLA filter v2. It's good. Slowness in nested filters in
+Joel Califa | 08:36
+It's good. Slowness in nested filters in build B2. So is that front independent or because?
+Austin Hughes | 08:41
+So is that front independent or because...? No, it's all only back.
+Joel Califa | 08:43
+So it's all only back? Yeah, and as a small other side wind, Kareem found an amazing query optimization that should speed up our slowest audiences even more.
+Austin Hughes | 08:45
+Okay. As a small other side wind, Kareem found an amazing query optimization that should speed up our slowest audiences even more.
+Joel Califa | 08:58
+Out of these two.
+Austin Hughes | 08:59
+Kareem is out of control.
+Arjun Shah | 09:02
+Are these two projects we shipped together as one? Yeah, then we should represent...
+Joel Califa | 09:06
+They're like different enough scopes that I would rather we...
+Austin Hughes | 09:07
+They're like different enough scopes that I would rather we...
+Joel Califa | 09:10
+Yeah.
+Austin Hughes | 09:10
+Yeah, I'll take it to you.
+Joel Califa | 09:10
+Okay, I'll take it to you, which is I'll just look up with Kareem and sort of like do you see really clear in the scope of those things?
+Austin Hughes | 09:12
+Which is I'll just look up with Kareem and sort of... Is he very clear on the scope of those things? Yeah, okay, awesome. Unrelated enough that I think just leave that it's fine for now. I'm staying post-trauma.
+Joel Califa | 09:17
+Yeah. Okay, so awesome. I don't think it's enough that I think just leave that it's fine for now. I'm staying close to what would you give me something to... What will be done this week?
+Austin Hughes | 09:24
+What would you have a sense of when that will be done this week?
+Joel Califa | 09:26
+This week?
+Austin Hughes | 09:27
+This week?
+Joel Califa | 09:27
+Well, there there's like some risk on it if he buys more things, but like the current scope, we won't have done this.
+Austin Hughes | 09:27
+Well there there's like some risk on it if you finds more things, but like the current node scope we won't have done this week.
+Joel Califa | 09:32
+Do you anticipate unknown things going up?
+Austin Hughes | 09:32
+Do you anticipate unknown things coming up probably?
+Joel Califa | 09:34
+Probably. Okay, so it's more like it's probably in the next week.
+Austin Hughes | 09:35
+Okay, so it's more like and probably into next week.
+Arjun Shah | 09:38
+Yeah.
+Joel Califa | 09:38
+Okay, so I'm assuming that this is all out here, this is going to go for the customer objective.
+Arjun Shah | 09:39
+Okay, so I'm assuming that this is out there the schedule or customer object.
+Joel Califa | 09:43
+Yeah, we're pulling it forward.
+Austin Hughes | 09:44
+Yeah, we're pulling it forward.
+Joel Califa | 09:45
+That's right.
+Austin Hughes | 09:45
+That's right.
+Joel Califa | 09:46
+Okay, awesome.
+James Grinage | 09:51
+Awesome.
+Joel Califa | 09:51
+Do you want to just put your name down as PM for those cool... Asser vehicles, anything yet?
+James Grinage | 09:51
+Do you want to just put your name down as PM for those cool...?
+Arjun Shah | 09:58
+Is it son and as Kareem King then designed as final?
+Joel Califa | 10:04
+That's the designed for both. No, I think they're almost final.
+Austin Hughes | 10:13
+No, I think they're almost final progress.
+Joel Califa | 10:15
+Yeah, if... Yeah, you can say these are done and said this one is...
+Austin Hughes | 10:16
+If you can say. You can say these are done. And I think this one is as okay.
+Arjun Shah | 10:26
+Yeah. So take...
+He still can't see her himself too.
+Austin Hughes | 10:38
+Kareem, yeah, sweetheart, that's awesome. Yeah, Kareem just how they rip it. Yeah, [Laughter].
+Joel Califa | 10:39
+Sweet, that's awesome. Yeah, let me so that to cover these James you...
+Arjun Shah | 10:45
+All right, so let me so that covers the James you want to talk about beta program.
+Joel Califa | 10:55
+Yeah, I had an ask out to Haley actually to lean in here.
+James Grinage | 10:56
+Yeah, I had an ask out to Haley, actually, to lean in here.
+Joel Califa | 11:01
+But she ended up I mean, because of the list building work.
+James Grinage | 11:01
+She ended up right because of the list building work.
+Joel Califa | 11:06
+She's prioritizing that over the beta program.
+James Grinage | 11:06
+She's prioritizing that over the beta program.
+Joel Califa | 11:09
+She said she would go back to me by end of week as to whether or not she...
+James Grinage | 11:10
+She said she would get back to me by end of week. Whether or not she...
+Joel Califa | 11:14
+She said she was going to actually do something before and a week.
+James Grinage | 11:14
+She said she was going to actually do something before end of week.
+Joel Califa | 11:16
+So she... Just check in with her to see if it still feels reasonable.
+James Grinage | 11:17
+So I should just check in with her to see if it still feels reasonable.
+Joel Califa | 11:19
+Obviously, the list building's most important, but we still need to solve the beta program thing.
+James Grinage | 11:19
+Obviously, the list building's most important, but we still need to solve the beta program thing.
+Joel Califa | 11:25
+This is going to continue to be a problem each time we want to watch something.
+James Grinage | 11:26
+Like this is going to be continue to be a problem each time we want to launch something.
+Joel Califa | 11:30
+I'll check in with her.
+James Grinage | 11:31
+I'll check in with her.
+Joel Califa | 11:34
+Is this a blocker to any upcoming release or are we going to run data?
+Arjun Shah | 11:35
+Is this a blocker to any upcoming release or are we going to run?
+Joel Califa | 11:41
+I don't think it's a blocker for the upcoming release.
+James Grinage | 11:41
+I don't think it's a blocker for the upcoming release.
+Joel Califa | 11:43
+For any upcoming releases, we would just have to...
+James Grinage | 11:44
+For any upcoming releases, we would just have to...
+Joel Califa | 11:45
+I think the solution is basically to do it the old way until this lands, which isn't the best solution.
+James Grinage | 11:46
+I think the solution is basically we do it the old way until this lands, which isn't the best solution.
+Joel Califa | 11:52
+I honestly, I feel like I wrote up enough context and sent it over to Hay that I could probably just pass that to Claude and have to do a bunch of research on beta programs that are out there today and see if they can generate an output that's like good enough to form an opinion.
+James Grinage | 11:53
+I honestly, I feel like I wrote up enough context and sent it over to Haley that I could probably just pass that to Claude and have it do a bunch of research on beta programs that are out there today and see if they can generate an output that's like good enough to form an opinion.
+Joel Califa | 12:08
+So I might just do that depending on where she's at.
+James Grinage | 12:09
+So I might just do that depending on where she's at.
+Joel Califa | 12:11
+So... Easy to proceed on the beta program, but... Is this generally right? This is our broader beta program.
+Arjun Shah | 12:12
+So... Assigned to Haley on the beta program is for you. This is generally for beta, right?
+James Grinage | 12:23
+This is our broader beta program.
+Joel Califa | 12:25
+This is more of just an interesting area for Haley to lean in given her skill set she expressed interest in working on more things.
+James Grinage | 12:25
+This is more of just an interesting area for Haley to lean in given her skill set. She expressed interest in working on more things.
+Joel Califa | 12:35
+I think it's a good news for time.
+Austin Hughes | 12:36
+I think it's...
+Joel Califa | 12:40
+Janet is the beta, and she's about to present which is us that James is listing with.
+Arjun Shah | 12:40
+Jan is the B2 x and te okay this is one of our business which is discussed and James and as web.
+Joel Califa | 12:50
+So the first... Yeah, we haven't seen the Linton. The first thing is just realigning on the jobs we've done.
+James Grinage | 12:50
+So the first... Yeah, we haven't seen with Linton. The first thing is just realigning on the jobs to be done.
+Joel Califa | 12:59
+We really need to just to do that.
+James Grinage | 13:00
+We really need to just do that.
+Joel Califa | 13:01
+We need it for all of our strategy work as well.
+James Grinage | 13:01
+We need it for the strategy, all of our strategy work as well.
+Joel Califa | 13:09
+Yeah.
+James Grinage | 13:09
+Yeah, we should just... Sorry.
+Joel Califa | 13:10
+We should just... Sorry. Is that you? When is the new website going live?
+Arjun Shah | 13:18
+When is the new website and branding going live?
+Austin Hughes | 13:21
+Sometime in probably in April.
+Joel Califa | 13:21
+Probably April, yeah, probably mid-April, like a month and a week from now, I think. Okay, this feels urgent, maybe we should just prioritize this.
+James Grinage | 13:30
+Okay, this feels urgent. Maybe we should just prioritize this list.
+Joel Califa | 13:36
+Liz is there like what do you change what you imaging is the outcome of that meeting.
+Austin Hughes | 13:38
+A what are you James, what are you imaging is the outcome of that meeting.
+Joel Califa | 13:44
+It's not so much the...
+James Grinage | 13:45
+It's not so much the...
+Joel Califa | 13:46
+So basically the decision is like what are our jobs to be done that we feel comfortable with, in order to leverage for the marketing website and inform the way that we position our products and the value prop associated with it.
+James Grinage | 13:47
+So basically the decision is like what are our jobs to be done that we feel comfortable with in order to leverage for the marketing website and inform the way that we position our products and the value prop associated with it With it.
+Joel Califa | 14:03
+This is the concern I think I raised last week, which is basically like if we tee up a value prop that doesn't map one to the job to be done, we're lying on or building product around that, then we're inherently setting up ourselves for some amount of disconnect and cognitive overload for our users, right?
+James Grinage | 14:04
+This is the concern I think I raised last week, which is basically like if we tee up a value prop that doesn't map one to the job to be done, we're lying on or building product around that, then we're inherently setting up ourselves for some amount of disconnect and cognitive overload for our users, right?
+Joel Califa | 14:21
+Like if they go to our marketing website and see one thing but then log into our product and see another, it's just not great.
+James Grinage | 14:21
+Like if they go to our marketing website and see one thing but then log into our product and see another, that's just not great.
+Joel Califa | 14:28
+So it's just about driving clarity.
+James Grinage | 14:29
+So it's just about driving clarity.
+Joel Califa | 14:31
+So it's my...
+James Grinage | 14:31
+So this... It's not so... It's a concern.
+Joel Califa | 14:32
+It's not. It's a concern.
+It's a short term concern.
+James Grinage | 14:34
+It's a short-term concern.
+Joel Califa | 14:35
+I just think we need to align fast.
+James Grinage | 14:36
+I just think we need to align fast.
+Joel Califa | 14:38
+Then I imagine it's not the worst case to revise the copy, but I don't know how far along folks are on the copy.
+James Grinage | 14:39
+Then I imagine it's not the worst case to revise the copy, but I don't know how far along folks are on the copy.
+Joel Califa | 14:47
+Copy is always changeable.
+I think Austin Lintin and I have kind of agreed on copy for most pages. That doesn't mean it's set in stone everywhere.
+James Grinage | 14:55
+Four.
+Joel Califa | 14:59
+And I think copy, like even post rollout is a thing we have full control over. It's like it's less like stuck in, like, design. The question is like, that doesn't mean we don't touch it pre rollout. It means that we have control over it. I do think it's a good stage here for you'all to like sync and make sure that we are consistent across all kind of internal external challenge channels around how we talk about this stuff.
+And so far, the like product input to this have been Austin and me or like generally not as close to the ground always. So like we should definitely include your input in whether everything matches up. Austin, you like do you agree with that?
+Yeah, my W would be that James and or James and Liz.
+Austin Hughes | 15:44
+Yeah, but I but should be the James and or James and Liz.
+Joel Califa | 15:49
+I would just st with Quentin and just make sure that you agree with the page taxonomy in particular, like the broader framework of the pages that we're building and how they went up to the job to be done.
+Austin Hughes | 15:49
+I would just sit with Quentin and just make sure that you agree with the page taxonomy in particular, like the broader framework of the pages that we're building and how they line up to the job to be done.
+Joel Califa | 15:59
+Technical copy stuff I have reviewed, copy I have given feedback.
+Austin Hughes | 15:59
+Tactical copy stuff I have reviewed, copy I have given feedback.
+Joel Califa | 16:02
+I do anticipate though that when we get closer to shipping I'm going to do another pass through.
+Austin Hughes | 16:03
+I do anticipate though that when we get closer to shipping I'm going to do another pass through.
+Joel Califa | 16:07
+I probably want to change some things, but to Joel's point, it's not like deleting pages, not a nuance.
+Austin Hughes | 16:07
+I probably want to change some things, but to Joel's point, it's not like deleting pages, not a nuance.
+Joel Califa | 16:13
+It's like, "Okay, what are the words on this one specific page?"
+Austin Hughes | 16:13
+It's like, "Okay, what are the words on this one specific page?"
+Joel Califa | 16:15
+So I would really see a high-level structure with my...
+Austin Hughes | 16:16
+So I would say a high-level structure with... With what?
+Joel Califa | 16:20
+Okay. And I yeah, I think what James and I talked about was just the overall narrative of how we're describing the products.
+Austin Hughes | 16:21
+Okay. Yeah.
+Liz Harder | 16:24
+I think what James and I had talked about was just the overall narrative of how we're describing the products.
+Joel Califa | 16:29
+Like in our products today, it's data and action and then exploring it on the new website.
+Liz Harder | 16:29
+Like in our product today, it's data and action and then exploring. If in the new website, it'll be more of a flow that mimics the general go-to-market journey that most people go through.
+Joel Califa | 16:33
+It'll be more of a flow that mimics the general go-to-market journey that most people go through. But we'll talk about it when...
+Liz Harder | 16:41
+But we'll talk quick, Quentin.
+Joel Califa | 16:43
+Cool.
+Austin Hughes | 16:44
+Cool.
+Joel Califa | 16:44
+Can you all do a share-out after you chat?
+Austin Hughes | 16:45
+Can you all do a share-out after you chat?
+Joel Califa | 16:46
+But just like, if you feel like we need to change anything major, just flag it early.
+Austin Hughes | 16:46
+Just like, if you feel like we need to change anything major, just flag it early.
+Joel Califa | 16:52
+Yeah, cool.
+Austin Hughes | 16:52
+Yeah. Cope okay.
+Joel Califa | 16:53
+Okay, sorry, it Joel was this relative.
+Arjun Shah | 16:56
+Sorry, I don't... Joel, was this related to the website?
+Joel Califa | 17:01
+This was the one of the outputs from the kind of conversation James and Liz are having with. Just like we could create some kind of AI capability so that everyone knows how to talk about the company in different contexts. Just like a guidance type thing. I didn't agree to do this. James said, "Joel is doing this," and I said, "I'm doing this, I guess."
+Then AI was like, "Joel's doing this. Cross off for now."
+Austin Hughes | 17:34
+I can cross off for now?
+Joel Califa | 17:35
+I do think this would be viable.
+Austin Hughes | 17:36
+I do think this would be valuable.
+Joel Califa | 17:37
+I'm talking to growth, you know, it's like pretty so this afternoon, so I'll see if we can hack something maybe.
+Austin Hughes | 17:37
+I'm talking to the growth team. It's like pretty similar this afternoon, so I'll see if we can hack something maybe.
+Joel Califa | 17:42
+Okay, cool.
+Austin Hughes | 17:42
+Okay.
+Joel Califa | 17:44
+Then the last one was basically like we have YouTube of a we have and like part of that obviously will be the product aspect of planning, which the strategy input into all the customer research you guys are doing, what a key input into.
+Arjun Shah | 17:44
+Then the last one was basically like we have YouTube play coming up in a week and a half. And part of that obviously will be the product aspect of planning, which the strategy input into all the customer research you guys are doing will be a key input into.
+Joel Califa | 17:59
+And then on the platform side, we have to run a similar exercise around like some of the output from the research will triple the platform.
+Arjun Shah | 18:00
+And then on the platform side, we have to run a similar exercise around some of the output from the research won't triple the platform, but there's a lot of stability and nonfunctional work that the platform people have to circle around.
+Joel Califa | 18:09
+But there's a lot Of stability in there and there are non-functional work that the platform people have like that's the process that basically now we have documented and we're going to kick that off here.
+Arjun Shah | 18:18
+So that's a that's the process that basically now we have documented and we're going to kick that off here.
+Joel Califa | 18:24
+We can.
+Arjun Shah | 18:25
+We can.
+Joel Califa | 18:26
+Okay, so there's a bunch of scale stuff that we're going to need to do.
+Austin Hughes | 18:27
+So there's a bunch of scale stuff that we're going to need to do.
+Joel Califa | 18:30
+Yeah, that is all I have.
+Austin Hughes | 18:31
+Yeah.
+Arjun Shah | 18:34
+That is all I have.
+Joel Califa | 18:35
+What else is on top of mind? I guess that maybe one other thing that I have is on YouTube.
+Arjun Shah | 18:36
+What else is on top of mind? I guess that maybe one other thing that I have is on YouTube.
+Joel Califa | 18:40
+Logistics.
+Arjun Shah | 18:41
+Logistics.
+Joel Califa | 18:42
+So we talked about this period in timelines.
+Arjun Shah | 18:43
+So we talked about this period timelines.
+Joel Califa | 18:46
+Like, we're gonna.
+Arjun Shah | 18:47
+Like we're gonna.
+Joel Califa | 18:51
+I'm going to set up just a few meetings over the next few weeks to review these things.
+Arjun Shah | 18:51
+I'm going to set up just a few meetings over the next few weeks to review these things.
+Joel Califa | 18:57
+You know, like stakeholder reviews and road map reviews.
+Arjun Shah | 18:57
+You know, like stakeholder reviews and road map reviews, making sure that we're, sort of coordinated.
+Joel Califa | 19:00
+Making sure that we're, sort of Coordinated.
+Then we'll work on the logistics of all the inputs and outputs from each time.
+Arjun Shah | 19:07
+Then we'll work on the logistics of all the inputs and outputs from each time.
+Joel Califa | 19:11
+So we'll basically follow the same process that we did back in January.
+Arjun Shah | 19:12
+We'll basically follow the same process that we did back in January this time.
+Joel Califa | 19:14
+This time we won't be rushing through halfway to... And all that.
+Arjun Shah | 19:15
+At least we won't be rushing through it halfway to KA and that and we'll actually have a lot more contact with the new people.
+Joel Califa | 19:18
+We actually have a lot more contexts with the new people, so I think we can run a more tight process.
+Arjun Shah | 19:22
+So I think we can run a more tighter in the process.
+Joel Califa | 19:25
+So this is just a diamond that we had made up.
+Arjun Shah | 19:25
+So this is just a diamond that we had made up.
+Joel Califa | 19:29
+So how we think ourles and responsibilities in the planning process.
+Austin Hughes | 19:29
+So how are we thinking about roles and responsibilities in the planning process?
+Joel Califa | 19:33
+Gosh, I'wear so have these pods.
+Arjun Shah | 19:34
+Gosh, I swear ahead. So we have these pods.
+Joel Califa | 19:40
+So I'm basically going to be more of a wordinger in terms of like just getting the invi Al but like I think in terms of each of these activities like ease, problem discovery, problem selection, solution validation and estimation ROBA review duration, like there's like we have as reg.
+Arjun Shah | 19:40
+So I'm basically going to be more of a boardinator in terms of just getting the Invis of all but like I think in terms of each of these activities, like these problem discovery, problem selection, solution validation, and estimation, ROBA review iteration, there's like we have reach.
+Joel Califa | 20:02
+And then obviously, I'm going to be very involved in each of the processes.
+Arjun Shah | 20:02
+And then obviously, I'm going to be very involved in each of the QA processes.
+Joel Califa | 20:08
+And then James and you guys will be involved in your specific parts.
+Arjun Shah | 20:08
+And then James and you guys will be involved in your specific parts.
+Joel Califa | 20:12
+I mean, it's going to be very tightly coated.
+Arjun Shah | 20:13
+I mean, it's going to be a very tightly automated group exercise.
+Yeah, and we'll make sure that we get inputs from the buyers themselves.
+Joel Califa | 20:17
+I want to make sure that we get inputs from the buyers.
+So all that... All that. Yeah, James, the head... I still have the same.
+Arjun Shah | 20:21
+All that.
+Austin Hughes | 20:25
+Yeah, Jas, the headres.
+James Grinage | 20:28
+I still have the same.
+Joel Califa | 20:29
+I'm just going to say the same thing that I shared earlier in the week of... Sorry, Argent.
+James Grinage | 20:30
+I'm just going to say the same thing that I shared earlier in the week of... Sorry, Arch.
+Joel Califa | 20:34
+And I realize this is annoying, but I feel like we still need some kind of more holistic unify product strategy to help inform this.
+James Grinage | 20:35
+And I realized this is annoying, but I feel like we still need some kind of more holistic, unified product strategy to help inform this.
+Joel Califa | 20:45
+Yes, let's play on this for sequencing.
+Arjun Shah | 20:45
+Yes.
+Austin Hughes | 20:47
+Let's plan on this for sequencing.
+Joel Califa | 20:48
+Like I think let's wrap the.
+Austin Hughes | 20:48
+Like I think let's wrap the.
+Joel Califa | 20:49
+We're doing the spike on customer interviews right now, which I think is going to be a lot of the core of how we think about these things.
+Austin Hughes | 20:49
+We're doing the spike on customer interviews right now, which I think is going to be a lot of the core of how we think about these things.
+Joel Califa | 20:55
+Some of the platform stuff will just be independent of that.
+Austin Hughes | 20:56
+Some of the platform stuff will just be independent of that.
+Joel Califa | 20:58
+But let's wrap up that spike in distillation and then let's plan shortly thereafter to wrap up a strategy doc.
+Austin Hughes | 20:59
+But let's wrap up that spike in distillation and then let's plan shortly thereafter to wrap up a strategy doc.
+Joel Califa | 21:06
+I can sort of be key DRI on that.
+Austin Hughes | 21:06
+Doc. I can sort of be key dri on that and get input from everybody here.
+Joel Califa | 21:08
+I can get input from everybody here and then we can use that as the basis for the Q2 roadmap.
+Austin Hughes | 21:13
+And then we can use that as the basis for the B2 road map stuff.
+Arjun Shah | 21:19
+Kareem, do you feel like my end of next week is a good time for me to get a graph?
+Joel Califa | 21:25
+If you like by the next week to get a draft or do you yeah, I think so.
+Arjun Shah | 21:29
+Or do you any longer?
+Austin Hughes | 21:31
+Yeah, I think so.
+Joel Califa | 21:32
+Let me... Yeah, I agree.
+Austin Hughes | 21:32
+I mean, yeah, I at least drop...
+Joel Califa | 21:34
+Yeah, James, basically the earlier I completely agree with you.
+Austin Hughes | 21:35
+Yeah.
+Arjun Shah | 21:38
+James, basically the earlier I completely agree with you.
+Joel Califa | 21:41
+So I realized that this might change.
+Arjun Shah | 21:41
+So I realized that this might change.
+Joel Califa | 21:47
+I have a sign just okay, so maybe let me have five minutes.
+Austin Hughes | 21:48
+I have to say no, that it does though.
+Arjun Shah | 21:50
+Okay, so maybe, like, we have five minutes.
+Joel Califa | 21:51
+Why don't we inbate this, right?
+Arjun Shah | 21:51
+Why don't we debate this like that?
+Joel Califa | 21:55
+The thing is. Like.
+Arjun Shah | 21:55
+The. The thing is, like, I just these buckets are important because when we do bottoms up, like we need some guardrails, people are not like, diverging way too far away from their four priorities.
+Joel Califa | 21:56
+I just... These buckets are important because when we do bottoms up, we need some guardrails, people are not diverging way too far away from their core priorities. I can see both sides, like James saying that product strategy will fundamentally change these three pillars.
+Arjun Shah | 22:07
+I can see both sides, like James saying that product strategy will fundamentally change these three pillars.
+Joel Califa | 22:12
+I think... I guess my hunch tells me... And I'm in the discussions of the broad strategy will be very overly indexed on winning the WEDR and maybe some platform projects.
+Arjun Shah | 22:12
+I think... I guess my hunch tells me... An argument in the discussions of the product strategy will be very overly indexed on going to be and maybe some platform products will work but fundamentally doesn't change the fact that we want to have a reliable product.
+Joel Califa | 22:22
+But fundamentally doesn't change the fact that we want to have a reliable product. We want to have... We want it to be easy to use and self-serve, which is a down market.
+Arjun Shah | 22:26
+We want to have you know, we want it to be easy to use and self serve, which is a pital market and that wraps us a more priority, which is one piece threeing about.
+Joel Califa | 22:31
+That wraps up more priority. Which is what we're speaking about. We could change them, James.
+Arjun Shah | 22:36
+We would change that, James.
+Joel Califa | 22:37
+But I will to see the readout before.
+Arjun Shah | 22:37
+I want to actually see the readout before we suggest anything. Don't want to put card before the horse.
+Joel Califa | 22:45
+Yeah, I think like when we're discussing like such a change in like such a big bed, these will inherently have to change.
+Like there's no world in which we're making such a big bet and such a big change and like, we're just using the same things. Because like, I just inherently it feels like these would obviously be different if we're now going to focus on a different area or on like you know, like there's tradeoffs if we're like equally being like win the BDR.
+But we're saying let's pull out all of our resources from like the extra features that we want to build for the BDR and put them on this future. Then that's a different theme, right? And so I think like depending on what we want to do in Q2 and how we want to lead this kind of like revolution, we should probably have these aligned with that, whatever that is versus just like par for the course, you know, like every other quarter definitely can recut these like no private authorship.
+Austin Hughes | 23:58
+Can recut these like no private authorship.
+Joel Califa | 24:00
+I would though, like call out That like for my conversations with users.
+Austin Hughes | 24:00
+I would though like call out that for my conversations with users...
+Joel Califa | 24:04
+Like the thing that seems to be sort of manifesting is like give AB as powers to reps, which I think is actually probably the future of like what the BD our job is to some degree of like these tools that are highly technical have been inaccessible to reps because they are too technical for the past four years or whatever it is.
+Austin Hughes | 24:04
+The thing that seems to be manifesting is like "Give us powers to reps," which I think is actually probably the future of what the VDR job is to some degree of these tools that are highly technical have been inaccessible to reps because they are too technical for the past four years or whatever it is.
+Joel Califa | 24:25
+Now we're in an era where maybe that's not true anymore.
+Austin Hughes | 24:25
+Now we're in an era where maybe that's not true anymore.
+Joel Califa | 24:27
+And so one noodle on it more.
+Austin Hughes | 24:28
+So one noodle on it more and not just one way or the other.
+Joel Califa | 24:30
+Not to suggest one way or the other, but I do think that a lot of the core is still the same.
+Austin Hughes | 24:33
+But I do think that like, a lot of the core is still. Is still the same.
+Joel Califa | 24:37
+I agree. I'm not saying like, Argent said.
+Like they bubble up into all these things. Like if we think like dialer is definitely like in when the BDR like list building is definitely both in that and in like make unify self serve like. I don't think these are irrelevant. I do think like if one of the big themes is like make unify future proof, you know, or like build a thing that is going to last in like the new era.
+And that's not explicitly represented here. I think that sends the wrong message. I think we should just basically make the call once we have... I think independently of this, we're working on the product strategy doc, and then the product strategy doc will help form this and whether we change these or don't change these.
+Austin Hughes | 25:16
+Hey, I think we should just basically make the call once we have... I think independently of this, we're working on the product strategy doc, and then the product strategy doc will help inform this
+and whether we change these or don't change these. I don't know.
+Joel Califa | 25:29
+I don't seem like what we know the last function's clarity.
+Austin Hughes | 25:30
+Seems like what we... The last function is clarity.
+Joel Califa | 25:32
+Yeah, and we can just, like, make a call.
+Austin Hughes | 25:33
+Yeah, and we can just, like, make a call that this is a this.
+Joel Califa | 25:35
+I agree. Yeah, why don't we move next week's this meeting to Friday, and then maybe we can just all review the draft, and then we can maybe focus some time on whether we need to change.
+Arjun Shah | 25:37
+Why don't we move next week's this meeting to Friday, and then maybe we can just all review the draft, and then we can maybe focus some time on whether we need to change.
+Joel Califa | 25:48
+Okay.
+Arjun Shah | 25:49
+Okay.
+Joel Califa | 25:50
+Anything else?
+Arjun Shah | 25:50
+Anything else?
+Joel Califa | 25:51
+Any other execution risks anyone wants to bring up?
+Arjun Shah | 25:52
+Any other execution risks anyone wants to bring up?
+Joel Califa | 26:00
+James?
+Arjun Shah | 26:00
+James, how's product usage?
+Joel Califa | 26:01
+Product usage events going. It's going, let's see, the hardest thing is, like, nobody's, like, begging for this feature, so it ends up turning into, like, a sales call.
+James Grinage | 26:07
+It's going. I would say the hardest thing is, like, nobody's, like, begging for this feature, so it ends up turning into, like, a sales call.
+Joel Califa | 26:17
+It's like pre-high conviction that this would be valuable for you guys, and you should turn it on.
+James Grinage | 26:18
+It's like pretty high conviction that this would be valuable for you guys. You should turn it on.
+Joel Califa | 26:23
+And then we end up having to, like, pitch them on it.
+James Grinage | 26:23
+And then we end up having to, like, pitch him on it.
+Joel Califa | 26:27
+Some people are really easy.
+James Grinage | 26:27
+Some people are really easy, and we're like, "Yep, I get it."
+Joel Califa | 26:28
+You're like, "Yep, I get it."
+I'll turn it on like Gum Loop yesterday was fantastic.
+James Grinage | 26:30
+I'll turn it on like Gum Loop yesterday was fantastic.
+Joel Califa | 26:33
+Turned it on within like ten minutes.
+James Grinage | 26:33
+Turned it on within like ten minutes.
+Joel Califa | 26:35
+It was super seamless.
+James Grinage | 26:36
+It was super seamless.
+Joel Califa | 26:38
+So it's going well for the folks that are excited about it and leaning in, but it's just like...
+James Grinage | 26:39
+So it's going well for the folks that are excited about it and leaning in, but it's just like...
+Joel Califa | 26:46
+We need to reach out to more people for sure.
+James Grinage | 26:47
+We need to reach out to more people for sure.
+Joel Califa | 26:48
+So that's on me to reach out to more people.
+James Grinage | 26:49
+So that's on me to reach out to more people.
+Joel Califa | 26:51
+But it's not like people are knocking on our door screaming for this.
+James Grinage | 26:52
+But it's not like people are knocking on our door screaming for this.
+Joel Califa | 26:56
+So just a quick question on that.
+Then hard time is your hunch.
+Arjun Shah | 26:58
+And then it over time is your hunch.
+Joel Califa | 27:00
+I know it's already is your hunch because we just haven't built it up to the point where we have each feature market fit and a product market fit for that area.
+Arjun Shah | 27:01
+I know it's already is your hunch. That is because we just haven't built it up to the point where we have feature market fit or product market fit in that area or because we're for...
+Joel Califa | 27:09
+Or is it because. No, there's definitely.
+James Grinage | 27:13
+No, there's definitely value for it.
+Joel Califa | 27:14
+There's definitely value for it.
+I think it's just people aren't fully like it's a that new market like we're building new functionality that people aren't fully aware of yet.
+James Grinage | 27:16
+I think it's just people aren't fully like it's a. Net new market like we're building new functionality that people aren't fully aware of yet.
+Joel Califa | 27:24
+It's similar to our core value prop with warm intent, right where people are landing on your marketing website. That's a great signal to leverage.
+James Grinage | 27:25
+It's similar to our core value prop with warm intent, right where people are landing on your marketing website. That's a great signal to leverage, and a bunch of other companies don't lean on that as their differentiator.
+Joel Califa | 27:34
+A bunch of other companies don't lean on that as their differentiator. Product usage data is leaning more into that as part of our differentiator.
+James Grinage | 27:38
+Product usage data is leaning more into that as part of our differentiator.
+Joel Califa | 27:42
+Yeah, it's not as obvious, but obviously it's good.
+James Grinage | 27:42
+Yeah, it's not as obvious, but obviously it's good.
+Joel Califa | 27:48
+You know, James, I think it's a good learning.
+James Grinage | 27:49
+You know, James.
+Austin Hughes | 27:49
+I think it's a good learning.
+Joel Califa | 27:50
+We should just like let's like try let's like report a video that shows the like your workflow value prop of it and start including that we ask you if they want to take a call and then we'll like learn rest this, then when we launch this, we should just put kind of like a cell call.
+Austin Hughes | 27:51
+We should just like let's like try let's like record a video that shows the like hero workflow value prop of it and start including that when we ask people if they want to take a call and then when we'll like learn it resonates. Then when we launch this, we should just include kind of like a cell call.
+Joel Califa | 28:08
+Yeah, I agree.
+James Grinage | 28:09
+Yeah, I agree.
+Joel Califa | 28:10
+There's definitely a learning curve on asynchronous comms to get people in the right mindset.
+James Grinage | 28:10
+There's definitely a learning curve on asynchronous comms to get people in the right mindset, so definitely a learning curve for myself.
+Joel Califa | 28:17
+So definitely alerting for myself on Matt that we could do a better job moving forward on communicating that ahead of time.
+James Grinage | 28:19
+But Matt that we could do a better job moving forward on communicating that ahead of time.
+Joel Califa | 28:24
+Awesome that.
+Arjun Shah | 28:25
+Awesome. Well thanks, guys.
+Joel Califa | 28:25
+RUSH Random question.
+Fabian Wikstrom | 28:27
+Random question: to what extent do we market these features on, say, Austin's LinkedIn, which I think is our most trafficked channel?
+Joel Califa | 28:27
+To what extent do we market these features on, say, Austin's LinkedIn, which I think is our most trafficked channel? Channel we do after launch?
+Austin Hughes | 28:38
+Channel we do after launch?
+Joel Califa | 28:40
+Okay, yeah, in video format or... Usually not video format, usually in text video doesn't perform well on LinkedIn.
+James Grinage | 28:41
+Okay.
+Fabian Wikstrom | 28:43
+In video format or like.
+Austin Hughes | 28:46
+Usually not video format, usually in text video doesn't perform well on LinkedIn.
+Joel Califa | 28:52
+I see.
+Austin Hughes | 28:52
+I see.
+Joel Califa | 28:53
+Okay, which maybe isn't like a good reason to not do it, but that is like a ndara slash ed yeah concept.
+Austin Hughes | 28:53
+Okay, which maybe isn't like a good reason to not do it, but that is like a Nadara slash coined yeah concept.
+Joel Califa | 29:05
+All right, guys, thanks so much.
+Arjun Shah | 29:05
+Alright, guys.
+Joel Califa | 29:06
+Appreciate it.
+Arjun Shah | 29:06
+Thanks so much. Appreciate it.
+Joel Califa | 29:07
+Good seeing your fly phone.
+Arjun Shah | 29:07
+Good seeing you all f.
