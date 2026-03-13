@@ -12,3 +12,5 @@ run_id,timestamp,model,beam_size,best_of,temperature,vad_filter,vad_threshold,co
 11,2026-03-13T17:46:59.355018,medium.en,5,5,0.0,True,0.65,int8,True,0.6,,0.1987,,0.1987,,,3598,3672,,,,259,185,271,1607.0,medium.en vad=0.65 less sensitive
 12,2026-03-13T18:13:44.523551,medium.en,5,5,0.0,True,0.2,int8,True,0.6,,0.2315,,0.2315,,,3598,4001,,,,466,63,304,1590.9,medium.en vad=0.2 very sensitive
 13,2026-03-13T18:18:12.554739,medium.en,5,5,0.0,True,0.5,int8,True,0.4,,0.1962,,0.1962,,,3598,3740,,,,276,134,296,1688.0,medium.en no_speech=0.4
+14,2026-03-13T18:42:11.392784,medium.en,5,5,0.0,True,0.35,int8,True,0.4,,0.1937,,0.1937,,,3598,3788,,,,308,118,271,1693.5,medium.en vad=0.35 no_speech=0.4
+15,2026-03-13T18:48:40.316460,medium.en,5,5,0.0,True,0.5,int8,True,0.8,,0.1962,,0.1962,,,3598,3740,,,,276,134,296,1715.5,medium.en no_speech=0.8

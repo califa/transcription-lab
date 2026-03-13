@@ -21,3 +21,5 @@
 | 11 | medium.en | 5 | 0.0 | True/0.65 | True | 0.6 |  | 19.87% | N/A | 19.87% | 1607.0s | medium.en vad=0.65 less sensitive |
 | 12 | medium.en | 5 | 0.0 | True/0.2 | True | 0.6 |  | 23.15% | N/A | 23.15% | 1590.9s | medium.en vad=0.2 very sensitive |
 | 13 | medium.en | 5 | 0.0 | True/0.5 | True | 0.4 |  | 19.62% | N/A | 19.62% | 1688.0s | medium.en no_speech=0.4 |
+| 14 | medium.en | 5 | 0.0 | True/0.35 | True | 0.4 |  | 19.37% | N/A | 19.37% | 1693.5s | medium.en vad=0.35 no_speech=0.4 |
+| 15 | medium.en | 5 | 0.0 | True/0.5 | True | 0.8 |  | 19.62% | N/A | 19.62% | 1715.5s | medium.en no_speech=0.8 |
