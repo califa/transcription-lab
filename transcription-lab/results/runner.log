@@ -103,3 +103,27 @@ Completed experiments: 4
 === Running experiment 1/11: medium.en beam=10 ===
 Command: /home/codespace/.python/current/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model medium.en --beam-size 10 --best-of 10 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes medium.en beam=10
 2026-03-13T08:16:33+00:00 Experiment finished with exit code 0
+2026-03-13T08:20:01+00:00 Starting next experiment (PID 3807663)
+2026-03-13T16:50:01+00:00 Experiment PID 3807663 still running, skipping
+2026-03-13T17:00:01+00:00 Starting next experiment (PID 1308383)
+2026-03-13T17:10:01+00:00 Experiment PID 1308383 still running, skipping
+=== Config ===
+  Model: medium.en, Beam: 1, BestOf: 1
+  Temp: 0.0, VAD: True/0.5
+  cond_prev: True, no_speech: 0.6
+
+  Loading model: medium.en (int8)...
+  Transcribing system audio...
+    Sys: 3825 words, WER=21.40%
+
+=== Results (Run #8) ===
+  System WER:    21.40%  (I=353 D=126 S=291)
+  Weighted WER:  21.40%
+  Elapsed:       872.1s
+
+  Gap to target: +16.40%
+Completed experiments: 5
+
+=== Running experiment 2/11: medium.en beam=1 greedy ===
+Command: /home/codespace/.python/current/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model medium.en --beam-size 1 --best-of 1 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes medium.en beam=1 greedy
+2026-03-13T17:15:04+00:00 Experiment finished with exit code 0
