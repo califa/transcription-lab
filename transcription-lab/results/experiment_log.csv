@@ -7,3 +7,4 @@ run_id,timestamp,model,beam_size,best_of,temperature,vad_filter,vad_threshold,co
 6,2026-03-13T08:16:32.253083,medium.en,10,10,0.0,True,0.5,int8,True,0.6,,0.2121,,0.2121,,,3598,3806,,,,336,128,299,2187.7,medium.en beam=10
 7,2026-03-13T08:16:46.962038,medium.en,10,10,0.0,True,0.5,int8,True,0.6,,0.2121,,0.2121,,,3598,3806,,,,336,128,299,2188.1,medium.en beam=10
 8,2026-03-13T17:15:04.334063,medium.en,1,1,0.0,True,0.5,int8,True,0.6,,0.2140,,0.2140,,,3598,3825,,,,353,126,291,872.1,medium.en beam=1 greedy
+9,2026-03-13T17:19:41.244567,medium.en,5,5,0.0,True,0.35,int8,True,0.6,,0.1937,,0.1937,,,3598,3788,,,,308,118,271,1624.0,medium.en vad=0.35 more sensitive
