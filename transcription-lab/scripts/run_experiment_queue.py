@@ -20,16 +20,7 @@ EXPERIMENT_CSV = PROJECT_ROOT / "results" / "experiment_log.csv"
 # Each entry is a dict of CLI args for evaluate_wer.py.
 # The queue is ordered by expected impact (most promising first).
 EXPERIMENT_QUEUE = [
-    # --- Model scaling (best lever) ---
-    {"model": "large-v2", "beam_size": 5, "best_of": 5, "temperature": 0.0,
-     "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
-     "notes": "large-v2 baseline"},
-
-    {"model": "large-v3", "beam_size": 5, "best_of": 5, "temperature": 0.0,
-     "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
-     "notes": "large-v3 baseline"},
-
-    # --- Beam size tuning on best model so far (medium.en as fallback) ---
+    # --- Beam size tuning on medium.en (current best at 19.62%) ---
     {"model": "medium.en", "beam_size": 10, "best_of": 10, "temperature": 0.0,
      "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
      "notes": "medium.en beam=10"},
@@ -67,24 +58,21 @@ EXPERIMENT_QUEUE = [
      "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
      "notes": "medium.en temp=0.2"},
 
-    # --- Large model with tuned params (applied after finding best params) ---
-    {"model": "large-v2", "beam_size": 10, "best_of": 10, "temperature": 0.0,
-     "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
-     "notes": "large-v2 beam=10"},
-
-    {"model": "large-v3", "beam_size": 10, "best_of": 10, "temperature": 0.0,
-     "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
-     "notes": "large-v3 beam=10"},
-
-    # --- Distil-large-v3 (faster, sometimes competitive) ---
+    # --- Distil-large-v3 (faster, sometimes competitive with large) ---
     {"model": "distil-large-v3", "beam_size": 5, "best_of": 5, "temperature": 0.0,
      "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
      "notes": "distil-large-v3"},
 
-    # --- large-v3-turbo ---
+    # --- large-v3-turbo (smaller than full large, may work on CPU) ---
     {"model": "large-v3-turbo", "beam_size": 5, "best_of": 5, "temperature": 0.0,
      "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
      "notes": "large-v3-turbo"},
+
+    # --- Combine best params from above on distil/turbo if they work ---
+    {"model": "medium.en", "beam_size": 5, "best_of": 5, "temperature": 0.0,
+     "condition_on_previous_text": 1, "no_speech_threshold": 0.6, "vad_threshold": 0.5,
+     "compute_type": "float32",
+     "notes": "medium.en float32 (higher precision)"},
 ]
 
 
@@ -141,7 +129,7 @@ def build_cmd(cfg: dict) -> list:
         "--condition-on-previous-text", str(cfg.get("condition_on_previous_text", 0)),
         "--no-speech-threshold", str(cfg.get("no_speech_threshold", 0.6)),
         "--vad-threshold", str(cfg.get("vad_threshold", 0.5)),
-        "--compute-type", "int8",
+        "--compute-type", cfg.get("compute_type", "int8"),
         "--sys-only",
         "--notes", cfg.get("notes", ""),
     ]

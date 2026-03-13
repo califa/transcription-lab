@@ -79,3 +79,27 @@ Completed experiments: 4
 Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v3 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v3 baseline
 Experiment failed with exit code 1
 2026-03-13T06:20:01+00:00 Experiment finished with exit code 0
+2026-03-13T07:40:01+00:00 Starting next experiment (PID 2516028)
+2026-03-13T07:50:01+00:00 Experiment PID 2516028 still running, skipping
+2026-03-13T08:00:01+00:00 Experiment PID 2516028 still running, skipping
+2026-03-13T08:10:01+00:00 Experiment PID 2516028 still running, skipping
+=== Config ===
+  Model: medium.en, Beam: 10, BestOf: 10
+  Temp: 0.0, VAD: True/0.5
+  cond_prev: True, no_speech: 0.6
+
+  Loading model: medium.en (int8)...
+  Transcribing system audio...
+    Sys: 3806 words, WER=21.21%
+
+=== Results (Run #6) ===
+  System WER:    21.21%  (I=336 D=128 S=299)
+  Weighted WER:  21.21%
+  Elapsed:       2187.7s
+
+  Gap to target: +16.21%
+Completed experiments: 4
+
+=== Running experiment 1/11: medium.en beam=10 ===
+Command: /home/codespace/.python/current/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model medium.en --beam-size 10 --best-of 10 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes medium.en beam=10
+2026-03-13T08:16:33+00:00 Experiment finished with exit code 0

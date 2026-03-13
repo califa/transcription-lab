@@ -4,3 +4,4 @@ run_id,timestamp,model,beam_size,best_of,temperature,vad_filter,vad_threshold,co
 3,2026-03-13T04:04:52.672864,medium.en,5,5,0.0,True,0.5,int8,True,0.6,,0.1962,,0.1962,,,3598,3740,,,,276,134,296,1445.3,medium.en cond_prev=True
 4,2026-03-13T04:30:35.591806,medium.en,5,5,0.0,True,0.5,int8,True,0.6,"Product and strategy weekly sync meeting with Arjun Shah, Austin Hughes, James Grinage, Liz Harder, Fabian Wikstrom, and Joel Califa. Discussion topics include filters V2, custom objects API, Solomon, Aden, Haywan, Quentin, Kevin, Kareem, Haley, PostHog, GA, BDR, beta program, Q2 roadmap.",0.2154,,0.2154,,,3598,3837,,,,366,127,282,1529.0,medium.en with context prompt
 5,2026-03-13T05:51:02.211622,large-v2,5,5,0.0,True,0.5,int8,True,0.6,,0.9525,,0.9525,,,3598,1524,,,,52,2126,1249,2301.3,large-v2 baseline
+6,2026-03-13T08:16:32.253083,medium.en,10,10,0.0,True,0.5,int8,True,0.6,,0.2121,,0.2121,,,3598,3806,,,,336,128,299,2187.7,medium.en beam=10

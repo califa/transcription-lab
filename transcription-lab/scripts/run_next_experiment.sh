@@ -5,6 +5,8 @@
 
 set -e
 
+export PATH="/home/codespace/.python/current/bin:$PATH"
+
 LOCKFILE="/tmp/transcription_lab_experiment.lock"
 LOGFILE="/project/workspace/transcription-lab/results/runner.log"
 PROJECT="/project/workspace/transcription-lab"
