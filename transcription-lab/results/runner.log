@@ -196,3 +196,6 @@ Completed experiments: 10
 === Running experiment 6/11: medium.en no_speech=0.8 ===
 Command: /home/codespace/.python/current/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model medium.en --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.8 --vad-threshold 0.5 --compute-type int8 --sys-only --notes medium.en no_speech=0.8
 2026-03-13T18:48:40+00:00 Experiment finished with exit code 0
+2026-03-13T18:50:01+00:00 Starting next experiment (PID 2972129)
+2026-03-13T19:00:01+00:00 Experiment PID 2972129 still running, skipping
+2026-03-13T19:10:01+00:00 Experiment PID 2972129 still running, skipping

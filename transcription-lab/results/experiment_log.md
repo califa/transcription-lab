@@ -23,3 +23,4 @@
 | 13 | medium.en | 5 | 0.0 | True/0.5 | True | 0.4 |  | 19.62% | N/A | 19.62% | 1688.0s | medium.en no_speech=0.4 |
 | 14 | medium.en | 5 | 0.0 | True/0.35 | True | 0.4 |  | 19.37% | N/A | 19.37% | 1693.5s | medium.en vad=0.35 no_speech=0.4 |
 | 15 | medium.en | 5 | 0.0 | True/0.5 | True | 0.8 |  | 19.62% | N/A | 19.62% | 1715.5s | medium.en no_speech=0.8 |
+| 16 | medium.en | 5 | 0.0 | True/0.35 | True | 0.8 |  | 19.37% | N/A | 19.37% | 1652.8s | medium.en vad=0.35 no_speech=0.8 |
