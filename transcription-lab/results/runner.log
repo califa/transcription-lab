@@ -68,3 +68,14 @@ Completed experiments: 4
 Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v3 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v3 baseline
 Experiment failed with exit code 1
 2026-03-13T06:10:01+00:00 Experiment finished with exit code 0
+2026-03-13T06:20:01+00:00 Starting next experiment (PID 2313128)
+Traceback (most recent call last):
+  File "/project/workspace/transcription-lab/scripts/evaluate_wer.py", line 21, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+Completed experiments: 4
+
+=== Running experiment 2/14: large-v3 baseline ===
+Command: /usr/bin/python3 /project/workspace/transcription-lab/scripts/evaluate_wer.py --model large-v3 --beam-size 5 --best-of 5 --temperature 0.0 --condition-on-previous-text 1 --no-speech-threshold 0.6 --vad-threshold 0.5 --compute-type int8 --sys-only --notes large-v3 baseline
+Experiment failed with exit code 1
+2026-03-13T06:20:01+00:00 Experiment finished with exit code 0
